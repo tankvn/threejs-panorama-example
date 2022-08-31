@@ -1,0 +1,31 @@
+body {
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+}
+
+ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    list-style: none
+}
+
+ul > li {
+    background-color: #020a81;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+li.active {
+    background-color: rgb(95, 21, 3);
+}
+li > button {
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    background: none;
+}
+
